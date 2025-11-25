@@ -2,8 +2,6 @@
 
 A secure **Console-Based Contact Management Application** implemented in C++. This system allows users to create private accounts to store, manage, and search for personal contacts. It features a login system, input validation for phone numbers, and customizable UI themes.
 
-
-
 ## 🚀 Features
 
 * **User Authentication:**
@@ -36,12 +34,12 @@ The application relies on text files to function as a database:
 Run the following command in your terminal:
 
 ```bash
-g++ main.cpp -o contact_saver
+g++ main.cpp -o Contact-Management-System
 ```
 ### 2. Run
 Execute the compiled program
 ```bash
-./contact_saver
+Contact-Management-System.cpp
 ```
 **Note:** This program uses Windows-specific commands like system("cls") and system("color"). It is best run on a Windows machine
 
@@ -87,7 +85,6 @@ Enter First Name : John
 **Menu Path:** 1. Search Contact
 ```text
 Enter Name to search : John
-
 
 		CONTACT DETAILS
 
